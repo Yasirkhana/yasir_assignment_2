@@ -87,18 +87,14 @@ class _MyHomePageState extends State<MyHomePage> {
                         onPressed: (){},
                         child: Text("Login",
                         style: TextStyle(
-                          fontSize: 20,
-                          
+                          fontSize: 20,          
                         )
-                        ,)
-                        ,
+                        ,),
                         color: Colors.blue.shade300,
-                        
                         shape: RoundedRectangleBorder(
-
                           borderRadius: BorderRadius.circular(30),
                         ),
-                        splashColor: Colors.amberAccent,
+                        splashColor: Colors.blueAccent,
                       ),
                     )
                   ],
