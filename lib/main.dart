@@ -9,10 +9,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body:  Container(
+        body:
+          Container(
           height: 100,
           width: 100,
+          alignment: Alignment.center,
           color: Colors.red,
+          child: Text("THIS IS BOX"),
         )
         )
         
